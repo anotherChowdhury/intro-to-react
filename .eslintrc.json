@@ -4,17 +4,17 @@
     "plugin:import/errors",
     "plugin:react/recommended",
     // "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
+    "plugin:jsx-a11 y/recommended",
     "prettier",
     "prettier/react"
   ],
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
   "rules": {
     "react/prop-types": "off",
     "no-console": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
-  "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
