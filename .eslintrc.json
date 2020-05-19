@@ -30,6 +30,12 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      "typescriptreact"
+    ]
   }
 }
